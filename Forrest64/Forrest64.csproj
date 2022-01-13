@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{4FAEDEC8-3D86-4350-B42D-DAD4414E69D1}</ProjectGuid>
+    <TargetFramework>net35</TargetFramework>
+    <OutputPath>C:\Program Files (x86)\GOG Galaxy\Games\Firewatch\BepInEx\plugins</OutputPath>
+    <AssemblyTitle>Forrest64</AssemblyTitle>
+    <Product>Forrest64</Product>
+    <Copyright>Copyright ©  2020</Copyright>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <Configurations>Release;Debug</Configurations>
+    <Platforms>x64</Platforms>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DebugType>portable</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Core" Version="5.4.16" />
+    <PackageReference Include="FirewatchGameLibs" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+      <None Remove="Forrest64Assets\AssetBundles\body.manifest" />
+      <None Remove="Forrest64Assets\AssetBundles\hand.manifest" />
+      <None Remove="Forrest64Assets\AssetBundles\hands.manifest" />
+      <None Remove="Forrest64Assets\AssetBundles\settings-menu.manifest" />
+      <None Remove="Forrest64Assets\AssetBundles\tool-picker.manifest" />
+  </ItemGroup>
+</Project>
