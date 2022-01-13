@@ -1,11 +1,12 @@
 # Forrest 64 PC
 
-The Nintendo Switch port of Firewatch has an exclusive easter egg, a mini-game called [Forrest 64](https://youtu.be/broQpHnh4_E?t=465). I noticed that the vesrion of the PC version has some leftover files from that minigame, including a test scene with the required objects and scripts to enable the Forrest 64 mode. So I made this mod to toggle Forrest 64 mode during the normal game.
+The Nintendo Switch port of Firewatch has an exclusive easter egg, a mini-game called [Forrest 64](https://youtu.be/broQpHnh4_E?t=465). When working on the [Firewatch VR mod (Two Forks VR)](https://www.patreon.com/raivr), I noticed that the PC version has some leftover files from that minigame, including a test scene with the required objects and scripts to enable the Forrest 64 mode. So I made this mod to toggle Forrest 64 mode during the normal game.
 
 ## Some notes
 
+- This works with or without the VR mod.
 - This can cause your Firewatch saves to become corrupted. If you care bout that, make a backup.
-- While this is fun, it's not the intended way of playing Forrest 64, and it's very unstable. You can very easily jump outside the map and just fall into the void. If that happens, you can just toggle Forrest 64 mode off and on again, to go back to Henry's position.
+- While this is fun, it's not the intended way of playing Forrest 64, and is very unstable. You can very easily jump outside the map and just fall into the void. If that happens, you can just toggle Forrest 64 mode off and on again, to go back to Henry's position.
 
 ## How to install
 
@@ -30,4 +31,4 @@ Once you're in the main game, you can press **Alpha 5** at any time to toggle be
 
 ## How to uninstall
 
-Rename or delete `winhttp.dll` in the game folder. You can also delete all the other files you copied from the zip of course, but that one is enough to disable the mod.
+Rename or delete `Firewatch\BepInEx\plugins\Forrest64.dll`.
