@@ -9,7 +9,7 @@ The Nintendo Switch port of Firewatch has an exclusive easter egg, a mini-game c
 
 ## How to install
 
-- [Download the latest release zip](https://github.com/Raicuparta/forrest-64/releases/latest);
+- [Download the latest release zip](https://github.com/Raicuparta/forrest-64/releases/latest/download/forrest-64.zip);
 - Extract the zip to your Firewatch folder (the one that has `Firewatch.exe` in it);
 
 ## How to use
