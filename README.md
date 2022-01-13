@@ -29,6 +29,14 @@ Now that you're in the test scene, you can:
 
 Once you're in the main game, you can press **Alpha 5** at any time to toggle between modes.
 
+## Controls
+
+I didn't change any of the controls, just left the defaults. For me, the Xbox controller bindings weren't working very well, and it seems to be missing the roll / dig button. The keyboard bindings are a bit awkward but seem to work better:
+- WASD to move;
+- Arrow keys to move the camera (yeah...);
+- Shift to crouch;
+- Ctrl to roll / dig.
+
 ## How to uninstall
 
 Rename or delete `Firewatch\BepInEx\plugins\Forrest64.dll`.
